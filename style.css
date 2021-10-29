@@ -1,0 +1,82 @@
+
+body{
+    background-color: black;
+    font-family: 'Irish Grover', cursive;
+}
+.first{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+p{
+    color: wheat;
+}
+.title{
+    text-align: center;
+    color: aqua;
+    font-size: 35px;
+    font-family:fantasy;
+}
+.note{
+    text-align: right;
+    color: bisque;
+    font-style: italic;
+    
+}
+#again{
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.buttn{
+    color: green;
+    font-size: larger;
+    font-family: fantasy;
+    width: 80px;
+    height: 30px;
+    
+}
+.num{
+    width: 70px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.rand_contain{
+    display:grid;
+    grid-template-columns: ". here .";
+}
+.rand_num{
+    color: black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    grid-area:here;
+    
+}
+
+.game{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+    grid-template-areas: "1 2";
+    align-items: center;
+    justify-items: center;
+}
+
+.left{
+    margin-top: 20px;
+}
+
+.right{
+    font-size: larger;
+}
+
+.num{
+    align-content: center;
+    font-size: 30px;
+    font-family: fantasy;
+    
+}

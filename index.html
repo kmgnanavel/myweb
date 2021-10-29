@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Gnanavel JSLearn</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="first">
+            <button class="buttn" id="again">Again❗</button>
+            <p class="note">(between 1 and 20)</p>
+        </div>
+        <p class="title">Guess the Number</p>
+    </header>
+
+    <div class="rand_contain">
+        <div class="rand_num">?</div>
+    </div>
+    <section class="game">
+        <section class="left">
+            <input class="num" type="number"><br>
+            <button class="buttn" id="enter">Enter👉</button>
+        </section>
+
+        <section class="right">
+            <div>
+                <p class="score message">Start Guessing...</p>
+                <p class="score current">Score: <span id="score_now">0</span> </p>
+                <p class="score high">High Score:<span id="high_score">0</span></p>
+            </div>
+        </section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
